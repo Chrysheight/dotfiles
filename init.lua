@@ -642,6 +642,7 @@ require('lazy').setup({
         -- But for many setups, the LSP (`ts_ls`) will work just fine
         -- ts_ls = {},
         --
+        angularls = {},
 
         lua_ls = {
           -- cmd = { ... },
@@ -940,6 +941,7 @@ require('lazy').setup({
       },
       indent = { enable = true, disable = { 'ruby' } },
       autotag = { enable = true },
+      incremental_selection = { enable = true },
     },
     -- There are additional nvim-treesitter modules that you can use to interact
     -- with nvim-treesitter. You should go explore a few and see what interests you:
