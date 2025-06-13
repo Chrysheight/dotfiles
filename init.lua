@@ -92,6 +92,9 @@ vim.o.shiftwidth = 0
 vim.o.expandtab = false
 vim.o.autoindent = true
 
+-- Line wrap
+vim.o.wrap = false
+
 -- So that '' is visible in markdown files
 vim.o.conceallevel = 0
 
@@ -792,7 +795,7 @@ require('lazy').setup({
         -- <c-k>: Toggle signature help
         --
         -- See :h blink-cmp-config-keymap for defining your own keymap
-        preset = 'default',
+        preset = 'enter',
 
         -- For more advanced Luasnip keymaps (e.g. selecting choice nodes, expansion) see:
         --    https://github.com/L3MON4D3/LuaSnip?tab=readme-ov-file#keymaps
