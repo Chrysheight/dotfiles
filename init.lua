@@ -915,6 +915,7 @@ require('lazy').setup({
         'angular',
         'bash',
         'c',
+        'c_sharp',
         'css',
         'diff',
         'html',
